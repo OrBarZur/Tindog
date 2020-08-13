@@ -1,0 +1,185 @@
+body {
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.container-fluid-title {
+  padding: 3% 15% 8%;
+}
+
+#title {
+  text-align: left;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Download Buttons */
+.download-button-title {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* Logo Features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.logo-features {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.logo-features:hover {
+  color: #ff4c68;
+}
+
+.feature-box {
+  padding: 4%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-coloumn {
+  padding: 2% 3%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+}
+
+.container-fluid-cta {
+  padding: 3% 30%;
+}
+
+.download-button-cta {
+  margin: 5% 3% 5% 0;
+}
+
+.cta-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 992px) {
+  .container-fluid-cta {
+    padding: 3% 20% 3%;
+  }
+}
+
+#footer {
+  padding: 5% 0 0;
+}
+
+.footer-box {
+  padding: 0.5%;
+}
+
+.footer-icons {
+  margin-bottom: 0.5%;
+}
